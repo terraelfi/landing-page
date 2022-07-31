@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 576px;
+}
+
+.container {
+    display: flex;
+}
+
+.container2 img {
+    width: 300px;
+}
