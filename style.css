@@ -1,6 +1,33 @@
 body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
+
+.header {
+    padding: 1.1rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    background-color: #1F2937;
+}
+
+.header .logo {
+    justify-content: center;
+    align-self: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.header li
 
 img {
     width: 576px;
